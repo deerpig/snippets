@@ -4,7 +4,7 @@
 # --
 #   -*- mode: org; fill-column: 60 -*-
 #+STARTUP: showall
-#+TITLE:   $1
+#+TITLE:   $1 | TOC
   :PROPERTIES:
   :CUSTOM_ID:
   :Name:      `(format "%s" (buffer-file-name))`
@@ -19,11 +19,11 @@
   :Licence:   MIT/CC BY-SA 4.0
   :END:
 
-* Table of Contents
-${5:[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]]} 
-${6:[[https://img.shields.io/badge/class-primer-56B4E9.svg?style=flat-square]]}
+* $5 | Table of Contents
+${6:[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]]} 
+${7:[[https://img.shields.io/badge/class-primer-56B4E9.svg?style=flat-square]]}
 [[https://img.shields.io/badge/entity-TOC-0072B2.svg?style=flat-square]]
-${7:[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]}
+${8:[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]}
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
 
