@@ -1,0 +1,35 @@
+# -*- mode: snippet -*-
+# name: orgtex
+# key: orgtex
+# --
+#+OPTIONS: toc:nil H:5 todo:nil tasks:nil timestamp:nil
+#+OPTIONS: \\n:nil email:nil d:nil skip:nil
+#+LaTeX_CLASS_OPTIONS: [12pt,A4]
+#+LaTeX_HEADER: \\usepackage[T1]{fontenc}
+#+LaTeX_HEADER: \\usepackage{mathpazo}
+#+LaTeX_HEADER: \\linespread{1.05}
+#+LaTeX_HEADER: \\usepackage[scaled]{helvet}
+#+LaTeX_HEADER: \\usepackage{courier}
+#+LaTeX_Header: \\usepackage{parskip}
+#+LaTeX_HEADER: \\usepackage{paralist}
+#+LaTeX_HEADER: \\let\\itemize\\compactitem
+#+LaTeX_HEADER: \\let\\description\\compactdesc
+#+LaTeX_HEADER: \\let\\enumerate\\compactenum
+#+LaTeX_HEADER: \\usepackage{lastpage}
+#+LaTeX_HEADER: \\usepackage{fancyhdr}
+#+LaTeX_HEADER: \\pagestyle{fancy}
+#+LaTeX_HEADER: \\renewcommand{\\headrulewidth}{0pt}
+#+LaTeX_HEADER: \\lhead{} \\chead{} \\rhead{}
+#+LaTeX_HEADER: \\lfoot{ver:1.0 `(insert-iso)`}
+#+LaTeX_HEADER: \\cfoot{`(capitalize (file-name-nondirectory (file-name-sans-extension (buffer-file-name))))`}
+#+LaTeX_HEADER: \\rfoot{\\thepage\\ of \\pageref{LastPage}}
+#+LaTeX: \\thispagestyle{fancy}
+#+LATEX_HEADER: \\usepackage{hyperref}
+#+LATEX_HEADER: \\hypersetup{
+#+LATEX_HEADER:     colorlinks,%
+#+LATEX_HEADER:     citecolor=black,%
+#+LATEX_HEADER:     filecolor=black,%
+#+LATEX_HEADER:     linkcolor=blue,%
+#+LATEX_HEADER:     urlcolor=black
+#+LATEX_HEADER: }
+

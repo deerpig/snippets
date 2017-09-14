@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: doc
+# key: doc
+# --
+#   -*- mode: org; fill-column: 60 -*-
+#+TITLE: Smart Schools
+#+AUTHOR: Brad Collins <brad@chenla.la>
+#+DATE: 
+#+STARTUP: showall
+#+INFOJS_OPT: view:info toc:t ltoc:t
+#+HTML_HEAD_EXTRA: <style>body {margin-left:50px; width:60%;}</style>
+  :PROPERTIES:
+  :Name: `(insert (format "%s" (buffer-file-name)))`
+  :Created: `(insert-iso)`@`(insert user-work-location-name)` (`(insert user-work-latitude)`-`(insert user-work-longitude)`)
+  :ID: `(insert (org-id-new))`
+  :URL:
+  :END:

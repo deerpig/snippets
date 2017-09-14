@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# name: reveal
+# key: reveal
+# condition: (eq 1 (line-number-at-pos))
+# --
+#+TITLE: ${1:Title of slidedeck}
+#+AUTHOR: `user-full-name`
+#+EMAIL: `user-mail-address`
+
+#+REVEAL_PLUGINS: (classList zoom notes)
+#+REVEAL_SPEED: default
+#+REVEAL_THEME: night
+#+REVEAL_TITLE_SLIDE: auto
+#+REVEAL_TITLE_SLIDE_BACKGROUND: nil
+#+REVEAL_TRANS: fade
+#+REVEAL_SLIDE_HEADER: <img class="header-img" src="./img/it-bit-logo-4.png"/>
+#+REVEAL_EXTRA_CSS: ./css/deck.css
+
+#+OPTIONS: num:nil
+#+OPTIONS: toc:nil
+
+#+OPTIONS: reveal_center:nil reveal_progress:t reveal_history:t reveal_control:t
+#+OPTIONS: reveal_mathjax:t reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+
+$0
+
