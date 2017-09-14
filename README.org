@@ -1,0 +1,30 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+
+* Snippets | README
+:PROPERTIES:
+:CUSTOM_ID:
+:Name:     /home/deerpig/proj/deerpig/snippets/README.org
+:Created:  2017-09-14T10:17@Prek Leap (11.642600N-104.919210W)
+:ID:       fed2dad9-ee0f-4ce2-b380-d9a1a0b03a13
+:VER:      558631094.557107512
+:GEO:      48P-491193-1287029-15
+:BXID:     proj:PEM0-2713
+:Class:    docs
+:Type:     readme
+:Status:   wip
+:Licence:  MIT/CC BY-SA 4.0
+:END:
+
+[[https://img.shields.io/badge/made%20by-Deerpig-999999.svg?style=flat-square]]
+[[https://img.shields.io/badge/class-docs-56B4E9.svg?style=flat-square]]
+[[https://img.shields.io/badge/type-readme-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
+[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
+
+
+Personal and work Yasnippet snippets.  I wrote the orgmode snippets.
+The bootstrap snippets are from elsewhere, but I believe from a repo
+on GitHub.  When I run across them again I will provide attribution.
+
+
