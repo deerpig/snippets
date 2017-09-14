@@ -23,8 +23,6 @@
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
 
-Personal and work Yasnippet snippets.  I wrote the orgmode snippets.
-The bootstrap snippets are from elsewhere, but I believe from a repo
-on GitHub.  When I run across them again I will provide attribution.
+Personal and work Yasnippet snippets.
 
 
