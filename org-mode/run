@@ -17,14 +17,16 @@
   :VER:       `(epoch-J2000)`
   :GEO:       `user-work-utm`
   :BXID:      ${2:proj}:`(make-bxid)`
+  :CLASS:     ${3:docs}
   :Type:      runbook
-  :Status:    ${3:wip}
+  :Status:    ${4:wip}
   :Licence:   MIT/CC BY-SA 4.0
   :END:
 
 [[https://img.shields.io/badge/made%20by-Deerpig-999999.svg?style=flat-square]] 
+${5:[[https://img.shields.io/badge/type-runbook-0072B2.svg?style=flat-square]]}
 [[https://img.shields.io/badge/type-runbook-0072B2.svg?style=flat-square]]
-${4:[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]}
+${6:[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]}
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
 
