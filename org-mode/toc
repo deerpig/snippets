@@ -5,6 +5,15 @@
 #   -*- mode: org; fill-column: 60 -*-
 #+STARTUP: showall
 #+TITLE:   $1 | TOC
+
+${2:[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]]} 
+${3:[[https://img.shields.io/badge/class-primer-56B4E9.svg?style=flat-square]]}
+[[https://img.shields.io/badge/entity-TOC-0072B2.svg?style=flat-square]]
+${4:[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]}
+[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
+
+
+* $1 | Table of Contents
   :PROPERTIES:
   :CUSTOM_ID:
   :Name:      `(format "%s" (buffer-file-name))`
@@ -12,19 +21,12 @@
   :ID:        `(org-id-new)`
   :VER:       `(epoch-J2000)`
   :GEO:       `user-work-utm`
-  :BXID:      ${2:proj}:`(make-bxid)`
-  :Class:     ${3:primer}
+  :BXID:      ${5:proj}:`(make-bxid)`
+  :Class:     ${6:primer}
   :Entity:    toc
-  :Status:    ${4:wip} 
+  :Status:    ${7:wip} 
   :Licence:   MIT/CC BY-SA 4.0
   :END:
-
-* $5 | Table of Contents
-${6:[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]]} 
-${7:[[https://img.shields.io/badge/class-primer-56B4E9.svg?style=flat-square]]}
-[[https://img.shields.io/badge/entity-TOC-0072B2.svg?style=flat-square]]
-${8:[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]}
-[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
 
 $0

@@ -9,6 +9,15 @@
 #+STARTUP: showall
 #+TOC: headlines 4
 #+PROPERTY: filename
+
+[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
+${2:[[https://img.shields.io/badge/class-primer-56B4E9.svg?style=flat-square]]}
+${3:[[https://img.shields.io/badge/type-work-0072B2.svg?style=flat-square]]}
+${4:[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]}
+[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
+
+
+* $1
   :PROPERTIES:
   :CUSTOM_ID: 
   :Name:      `(format "%s" (buffer-file-name))`
@@ -16,20 +25,13 @@
   :ID:        `(org-id-new)`
   :VER:       `(epoch-J2000)`
   :GEO:       `user-work-utm`
-  :BXID:      ${2:proj}:`(make-bxid)`
-  :Class:     ${3:primer}
-  :Type:      ${4:work}
-  :Status:    ${5:wip}
+  :BXID:      ${5:proj}:`(make-bxid)`
+  :Class:     ${6:primer}
+  :Type:      ${7:work}
+  :Status:    ${8:wip}
   :Licence:   MIT/CC BY-SA 4.0
   :END:
 
-[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
-${6:[[https://img.shields.io/badge/class-primer-56B4E9.svg?style=flat-square]]}
-${7:[[https://img.shields.io/badge/type-work-0072B2.svg?style=flat-square]]}
-${8:[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]}
-[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
-
-
-* Introduction
+** Introduction
 
 $0
