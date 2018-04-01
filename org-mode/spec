@@ -16,6 +16,7 @@ ${3:[[https://img.shields.io/badge/type-work-0072B2.svg?style=flat-square]]}
 ${4:[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]}
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
+bibliography:../hoard/bib.bib
 
 * $1
   :PROPERTIES:
@@ -32,6 +33,7 @@ ${4:[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]}
   :Licence:   MIT/CC BY-SA 4.0
   :END:
 
-** Introduction
+** TL;DR
+** Table of Contents
 
 $0
