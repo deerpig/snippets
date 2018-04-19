@@ -12,6 +12,9 @@ ${3:[[https://img.shields.io/badge/class-primer-56B4E9.svg?style=flat-square]]}
 ${4:[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]}
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
+bibliography:~/proj/chenla/hoard/bib.bib
+
+[[[../index.org][top]]] | [[[./index.org][index]]]
 
 * $1 | Table of Contents
   :PROPERTIES:
