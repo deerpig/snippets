@@ -32,7 +32,7 @@ bibliography:~/proj/chenla/hoard/bib.bib
   :END:
 
   - Contents
-  - Introduction
+  - [[./intro.org][Introduction]]
   
 
 $0
