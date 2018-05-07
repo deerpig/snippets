@@ -5,20 +5,20 @@
 # --
 #   -*- mode: org; fill-column: 60 -*-
 
-#+TITLE: $1
+#+TITLE: $1 
 #+STARTUP: showall
 #+TOC: headlines 4
 #+PROPERTY: filename
 
 [[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
-${2:[[https://img.shields.io/badge/class-primer-56B4E9.svg?style=flat-square]]}
+${2:[[https://img.shields.io/badge/class-w & w-56B4E9.svg?style=flat-square]]}
 ${3:[[https://img.shields.io/badge/type-work-0072B2.svg?style=flat-square]]}
 ${4:[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]}
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
 bibliography:~/proj/chenla/hoard/bib.bib
 
-[[[../index.org][top]]] | [[[./index.org][index]]]
+[[[../../index.org][top]]] [[[../index.org][up]]]
 
 
 * $1
@@ -36,8 +36,9 @@ bibliography:~/proj/chenla/hoard/bib.bib
   :Licence:   MIT/CC BY-SA 4.0
   :END:
 
-** Table of Contents
+** Scope
 ** TL;DR
+** References
 
 
 $0
