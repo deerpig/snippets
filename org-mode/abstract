@@ -1,11 +1,11 @@
 # -*- mode: snippet -*-
-# name: spec
-# key: spec
+# name: abstract
+# key: abstract
 # expand-env: (yas-indent-line 'fixed)
 # --
 #   -*- mode: org; fill-column: 60 -*-
 
-#+TITLE: $1 
+#+TITLE: $1 Abstract
 #+STARTUP: showall
 #+TOC: headlines 4
 #+PROPERTY: filename
@@ -20,7 +20,7 @@ bibliography:~/proj/chenla/hoard/bib.bib
 
 [[[../../index.org][top]]] [[[../index.org][up]]]
 
-* $1
+* $1 Abstract
   :PROPERTIES:
   :CUSTOM_ID: 
   :Name:      `(format "%s" (buffer-file-name))`
@@ -36,8 +36,8 @@ bibliography:~/proj/chenla/hoard/bib.bib
   :END:
 
 ** Scope
-** TL;DR
-** References
-
 
 $0
+
+** TL;DR
+
