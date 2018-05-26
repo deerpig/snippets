@@ -9,6 +9,7 @@
 #+STARTUP: showall
 #+TOC: headlines 4
 #+PROPERTY: filename
+#+LINK: pdf   pdfview:~/proj/chenla/hoard/lib/
 
 [[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
 ${2:[[https://img.shields.io/badge/class-w & w-56B4E9.svg?style=flat-square]]}
