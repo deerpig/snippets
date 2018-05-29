@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: article
 # key: article
-# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# expand-env: (setq yas-indent-line 'nil)
 # --
 @article{${1:name}:${2:year}${3:label}},
    title   = {$4},
