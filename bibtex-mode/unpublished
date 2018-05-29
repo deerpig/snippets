@@ -7,7 +7,7 @@
    title       = {$4},
    author      = {$5},
    year        = {$2},
+   note        = {$6},
    OPTmonth    = {$0},
-   OPTnote     = {},
    OPTurl      = {},
    OPTkeywords = {}}
