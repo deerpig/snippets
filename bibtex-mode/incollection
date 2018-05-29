@@ -1,23 +1,26 @@
 # -*- mode: snippet -*-
 # name: incollection
 # key: incollection
+# expand-env: (setq yas-indent-line 'nil)
 # --
-@incollection{ ${title},
-  author    = {${author}},
-  title     = {${title}},
-  booktitle = {${booktitle}},
-  publisher = {${publisher}},
-  year      = {${year}}${,
-  editor    = {${editor}}}${,
-  volume    = {${volume}}}${,
-  series    = {${series}}}${,
-  type      = {${type}}}${,
-  chapter   = {${chapter}}}${,
-  pages     = {${pages}}}${,
-  address   = {${address}}}${,
-  edition   = {${edition}}}${,
-  month     = {${month}}}${,
-  note      = {${note}}}
-}
+@incollection{${1:name}:${2:year}${3:label},
+   author       = {$4},
+   title        = {$5},
+   booktitle    = {$6},
+   year         = {$2},
+   OPTpublisher = {$0},
+   OPTcrossref  = {},
+   OPTeditor    = {},
+   OPTvolume    = {},
+   OPTnumber    = {},
+   OPTseries    = {},
+   OPTtype      = {},
+   OPTchapter   = {},
+   OPTpages     = {},
+   OPTedition   = {},
+   OPTmonth     = {},
+   OPTaddress   = {},
+   OPTnote      = {},
+   OPTurl       = {},
+   OPTkeywords  = {}}
 
-$0
