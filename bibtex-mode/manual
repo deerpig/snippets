@@ -4,9 +4,9 @@
 # expand-env: (setq yas-indent-line 'nil)
 # --
 @manual{${1:name}:${2:year}${3:label},
-   author       = {$3},
-   title        = {$4},
-   organization = {$5},
+   author       = {$4},
+   title        = {$5},
+   organization = {$6},
    year         = {$2},
    OPTedition   = {$0},
    OPTmonth     = {},
