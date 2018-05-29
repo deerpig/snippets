@@ -3,7 +3,7 @@
 # key: book
 # expand-env: (setq yas-indent-line 'nil)
 # --
-@book${1:name}:${2:year}${3:label},
+@book{${1:name}:${2:year}${3:label},
    ALTeditor    = {$4}
    ALTauthor    = {$5},
    OPTtitle     = {$6},
