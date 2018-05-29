@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: inbook
 # key: inbook
-# expand-env: (setq yas-indent-line 'nil)
+# expand-env: ((yas-indent-line 'nil))
 # --
 @inbook{${1:name}:${2:year}${3:label},
    ALTauthor   = {$4},
