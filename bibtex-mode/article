@@ -3,7 +3,7 @@
 # key: article
 # expand-env: (setq yas-indent-line 'nil)
 # --
-@article{${1:name}:${2:year}${3:label}},
+@article{${1:name}:${2:year}${3:label},
    title       = {$4},
    author      = {$5},
    journal     = {$6},
