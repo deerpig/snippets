@@ -1,16 +1,15 @@
 # -*- mode: snippet -*-
 # name: techreport
 # key: techreport
+# expand-env: (setq yas-indent-line 'nil)
 # --
-@techreport{ ${title},
-  author       = {${author}},
-  title        = {${title}},
-  institution  = {${institution}},
-  year         = {${year}},
-  type         = {${type}}${,
-  address      = {${address}}}${,
-  month        = {${month}}}${,
-  note         = {${note}}}
-}
+@techreport{${1:name}:${2:year}${3:label},
+   title        = {$4},
+   author       = {$5},
+   institution  = {$6},
+   year         = {$2},
+   OPTmonth     = {},
+   OPTnote      = {},
+   OPTurl       = {},
+   OPTkeywords  = {}}
 
-$0
