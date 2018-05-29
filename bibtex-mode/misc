@@ -1,14 +1,14 @@
 # -*- mode: snippet -*-
 # name: misc
 # key: misc
+# expand-env: (setq yas-indent-line 'nil)
 # --
-@misc{ ${title}${,
-  author       = {${author}}}${,
-  title        = {${title}}}${,
-  howpublished = {${howpublished}}}${,
-  month        = {${month}}}${,
-  year         = {${year}}}${,
-  note         = {${note}}}
-}
-
-$0
+@misc{${1:name}:${2:year}${3:label},
+   author       = {$4},
+   title        = {$5},
+   publisher    = {$6},
+   month        = {$7},
+   year         = {$2},
+   note         = "[Online; accessed `(format-time-string "%Y-%02m-%02dT%02H:%02M")`]",
+   OPTurl      = {$0},
+   OPTkeywords = {}}
