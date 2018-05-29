@@ -1,17 +1,17 @@
 # -*- mode: snippet -*-
 # name: article
 # key: article
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
 # --
-@article{ ${title},
-  author  = {${author}},
-  title   = {${title}},
-  journal = {${journal}},
-  year    = {${year}}${,
-  volume  = {${volume}}}${,
-  number  = {${number}}}${,
-  pages   = {${pages}}}${,
-  month   = {${month}}}${,
-  note    = {${note}}}
-}
+@article{${1:name}:${2:year}${3:label}},
+   title   = {$4},
+   author  = {$5},
+   journal = {$6},
+   year    = {$2},
+   volume  = {$7},
+   number  = {$8},
+   pages   = {$9},
+   month   = {$10},
+   note    = {$0}}
 
-$0
+
