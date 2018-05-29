@@ -8,11 +8,11 @@
    author      = {$5},
    journal     = {$6},
    year        = {$2},
-   OPTvolume   = {$7},
-   OPTnumber   = {$8},
-   OPTpages    = {$9},
-   OPTmonth    = {$10},
-   OPTnote     = {$0},
+   OPTvolume   = {$0},
+   OPTnumber   = {},
+   OPTpages    = {},
+   OPTmonth    = {},
+   OPTnote     = {},
    OPTurl      = {},
    OPTkeywords = {}}
    
