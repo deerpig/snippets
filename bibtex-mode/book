@@ -1,22 +1,20 @@
 # -*- mode: snippet -*-
 # name: book
 # key: book
+# expand-env: (setq yas-indent-line 'nil)
 # --
-@book{ ${title},
-  author    = {${author}},
-  editor    = {${editor}}
-  title     = {${title}},
-  publisher = {${publisher}},
-  year      = {${year}}${,
-  volume    = {${volume}}}${,
-  number    = {${number}}}${,
-  series    = {${series}}}${,
-  type      = {${type}}}${,
-  address   = {${address}}}${,
-  edition   = {${edition}}}${,
-  month     = {${month}}}${,
-  isbn      = {${isbn}}}${,
-  note      = {${note}}}
-}
-
-$0
+@book${1:name}:${2:year}${3:label},
+   ALTeditor    = {$4}
+   ALTauthor    = {$5},
+   OPTtitle     = {$6},
+   OPTpublisher = {$7},
+   OPTyear      = {$2},
+   OPTvolume    = {$0},
+   OPTnumber    = {},
+   OPTseries    = {},
+   OPTedition   = {},
+   OPTmonth     = {},
+   OPTisbn      = {},
+   OPTnote      = {},
+   OPTurl       = {},
+   OPTkeywords  = {}}
