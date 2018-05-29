@@ -3,7 +3,7 @@
 # key: masterthesis
 # expand-env: (setq yas-indent-line 'nil)
 # --
-@masterthesis{${1:name}:${2:year}${3:label},
+@mastersthesis{${1:name}:${2:year}${3:label},
    title       = {$4},
    author      = {$5},
    school      = {$6},
