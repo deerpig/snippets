@@ -1,14 +1,18 @@
 # -*- mode: snippet -*-
 # name: manual
 # key: manual
+# expand-env: (setq yas-indent-line 'nil)
 # --
-@manual{ ${title},
-  title        = {${title}}${,
-  author       = {${author}}}${,
-  organization = {${organization}}}${,
-  address      = {${address}}}${,
-  editor       = {${editor}}}${,
-  month        = {${month}}}${,
-  year         = {${year}}}${,
-  note         = {${note}}}
-}
+@manual{${1:name}:${2:year}${3:label},
+   author       = {$3},
+   title        = {$4},
+   organization = {$5},
+   year         = {$2},
+   OPTedition   = {$0},
+   OPTmonth     = {},
+   OPTyear      = {},
+   OPTnote      = {},
+   OPTurl       = {},
+   OPTkeywords  = {}}
+
+
