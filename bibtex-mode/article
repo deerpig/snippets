@@ -4,14 +4,16 @@
 # expand-env: (setq yas-indent-line 'nil)
 # --
 @article{${1:name}:${2:year}${3:label}},
-   title   = {$4},
-   author  = {$5},
-   journal = {$6},
-   year    = {$2},
-   volume  = {$7},
-   number  = {$8},
-   pages   = {$9},
-   month   = {$10},
-   note    = {$0}}
-
+   title       = {$4},
+   author      = {$5},
+   journal     = {$6},
+   year        = {$2},
+   OPTvolume   = {$7},
+   OPTnumber   = {$8},
+   OPTpages    = {$9},
+   OPTmonth    = {$10},
+   OPTnote     = {$0},
+   OPTurl      = {},
+   OPTkeywords = {}}
+   
 
