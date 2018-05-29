@@ -1,16 +1,14 @@
 # -*- mode: snippet -*-
 # name: phdthesis
 # key: phdthesis
+# expand-env: (setq yas-indent-line 'nil)
 # --
-@phdthesis{ ${title},
-  author  = {${author}},
-  title   = {${title}},
-  school  = {${school}},
-  year    = {${year}}${,
-  type    = {${type}}}${,
-  address = {${address}}}${,
-  month   = {${month}}}${,
-  note    = {${note}}}
-}
-
-$0
+@mastersthesis{${1:name}:${2:year}${3:label},
+   title       = {$4},
+   author      = {$5},
+   school      = {$6},
+   year        = {$2},
+   OPTmonth    = {$0},
+   OPTnote     = {},
+   OPTurl      = {},
+   OPTkeywords = {}}
