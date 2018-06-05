@@ -4,8 +4,8 @@
 # expand-env: (setq yas-indent-line 'nil)
 # --
 @incollection{${1:name}:${2:year}${3:label},
-   author       = {$4},
-   title        = {$5},
+   title        = {$4},
+   author       = {$5},
    booktitle    = {$6},
    year         = {$2},
    publisher    = {$7},
