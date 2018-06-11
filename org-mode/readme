@@ -29,6 +29,12 @@ ${2:[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]}
   :END:
 
 
+--- 
+
+*NOTE*: The primary repo is @ [[http://git.chenla.org/hoard/$7]] 
+Please submit pull requests and issues there.  A read
+only-mirror is maintained @ [[https://github.com/chenla/$7]]
+
 $0
 
 
