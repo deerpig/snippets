@@ -4,7 +4,7 @@
 # expand-env: (setq yas-indent-line 'nil)
 # --
 @misc{wiki:2018${1:label},
-   title       = {$2} --- {Wikipedia (english)},
+   title       = {$2 --- Wikipedia (english)},
    author      = {Wikipedia},
    year        = 2018,
    note        = "[Online; accessed `(format-time-string "%Y-%02m-%02d")`]",
