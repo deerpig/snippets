@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: wiki
+# key: wiki
+# expand-env: (setq yas-indent-line 'nil)
+# --
+@misc{wiki:2018${1:label},
+   title       = {$2} --- {Wikipedia (english)},
+   author      = {$3},
+   publisher   = {$4},
+   month       = {$5},
+   year        = 2018,
+   note        = "[Online; accessed `(format-time-string "%Y-%02m-%02d")`]",
+   url         = {$6},
+   OPTkeywords = {$0}}
