@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: task
+# key: task
+# --
+** TODO $0
+  :PROPERTIES:
+  :CREATED:     [`(format-time-string "%Y-%02m-%02d %a %02H:%02M")`]
+  :ID:          `(org-id-new)`
+  :END:
+
