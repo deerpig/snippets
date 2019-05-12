@@ -1,0 +1,42 @@
+# -*- mode: snippet -*-
+# name: Burr
+# key: burr
+# expand-env: (yas-indent-line 'fixed)
+# --
+#   -*- mode: org; fill-column: 60 -*-
+
+#+TITLE: $1--$2--$3
+#+STARTUP: showall
+#+TOC: headlines 4
+#+PROPERTY: filename
+#+LINK: pdf   pdfview:~/proj/chenla/hoard/lib/
+
+* $1--$2--$3 
+  :PROPERTIES:
+  :BMF-Version:      0.1
+  :From:             <deerpig@chenla.org> Deerpig
+  :Name:             <${4:con}:$1--$2--$3>
+  :Path:             <`(format "%s" (buffer-file-name))`>
+  :Created:          `(format-time-string "%Y-%02m-%02dT%02H:%02M")``human-readable-stamp`
+  :Message-ID:       <`(org-id-new)`>
+  :Stamp:            <`(epoch-J2000)`:`user-work-utm`>
+  :BXID:             <$4:`(make-bxid)`>
+  :Status:           <${5:bmf:wip--status}>
+  :Entity-Type:      <${6:bmf:concept--entity}>     
+  :Content-Type:     text/orgmode; charset=UTF-8
+  :Content-Language: eng-035
+  :Licence:          mit/cc by-sa 4.0
+  :TT:               <$4:${7:concept--tspace}>   
+  :PT:               
+  :BT:               
+  :RT:               
+  :END:
+
+** Scope
+
+$0
+
+** Body
+** Footnotes
+** References
+bibliography:~/proj/chenla/hoard/bib.bib
